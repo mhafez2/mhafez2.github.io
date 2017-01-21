@@ -7,8 +7,8 @@
 */
 
 $imSettings['general'] = array(
-	'url' => 'http://Reviewreference.tk/',
-	'homepage_url' => 'http://Reviewreference.tk/index.html',
+	'url' => 'http://lynksref.tk/',
+	'homepage_url' => 'http://lynksref.tk/index.html',
 	'public_folder' => '',
 	'salt' => '313gxzzhrx3ij566i93d7nime86f6h87s8f7yv97c40379xws',
 	'use_common_email_sender_address' => false,

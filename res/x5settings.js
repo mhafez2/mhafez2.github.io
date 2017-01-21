@@ -27,7 +27,7 @@
 			orientation: 'horizontal',
 			menuHeight: 38,
 			menuWidth: 120,
-			submenuHeight: 34,
+			submenuHeight: 36,
 			submenuWidth: 230,
 			opacity: 0.8,
 			type: 'multipleColumn',
