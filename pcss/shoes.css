@@ -8,8 +8,8 @@ h2#imPgTitle {float: left; }
 @media (min-width: 960px) {
 	#imPgTitle { width: 936px; margin-left: 6px; margin-right: 6px; }
 	#imBreadcrumb { width: 936px; margin-left: 6px; margin-right: 6px; }
-	#imCell_1 { width: 944px; min-height: 1410px;  padding-top: 3px; padding-bottom: 3px; padding-left: 3px; padding-right: 3px; }
-	#imCellStyle_1 { width: 944px; min-height: 1410px; padding: 3px 3px 3px 3px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
+	#imCell_1 { width: 944px; min-height: 2346px;  padding-top: 3px; padding-bottom: 3px; padding-left: 3px; padding-right: 3px; }
+	#imCellStyle_1 { width: 944px; min-height: 2346px; padding: 3px 3px 3px 3px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
 	#imCellStyleGraphics_1 { left: 3px; right: 3px; }
 	#imObjectGallery_1 { display: block; width: 938px; text-align: left; }
 	#imObjectGallery_1 a { display: block; float: left; margin: 0; width: 232px; height: 232px; }
@@ -19,8 +19,8 @@ h2#imPgTitle {float: left; }
 @media  (max-width: 959px) and (min-width: 720px) {
 	#imPgTitle { width: 696px; margin-left: 6px; margin-right: 6px; }
 	#imBreadcrumb { width: 696px; margin-left: 6px; margin-right: 6px; }
-	#imCell_1 { width: 706px; min-height: 1054px;  padding-top: 3px; padding-bottom: 3px; padding-left: 2px; padding-right: 2px; }
-	#imCellStyle_1 { width: 706px; min-height: 1054px; padding: 3px 3px 3px 3px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
+	#imCell_1 { width: 706px; min-height: 1752px;  padding-top: 3px; padding-bottom: 3px; padding-left: 2px; padding-right: 2px; }
+	#imCellStyle_1 { width: 706px; min-height: 1752px; padding: 3px 3px 3px 3px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
 	#imCellStyleGraphics_1 { left: 2px; right: 2px; }
 	#imObjectGallery_1 { display: block; width: 700px; text-align: left; }
 	#imObjectGallery_1 a { display: block; float: left; margin: 0; width: 173px; height: 173px; }
@@ -30,8 +30,8 @@ h2#imPgTitle {float: left; }
 @media  (max-width: 719px) and (min-width: 480px) {
 	#imPgTitle { width: 456px; margin-left: 6px; margin-right: 6px; }
 	#imBreadcrumb { width: 456px; margin-left: 6px; margin-right: 6px; }
-	#imCell_1 { width: 468px; min-height: 698px;  padding-top: 3px; padding-bottom: 3px; padding-left: 1px; padding-right: 1px; }
-	#imCellStyle_1 { width: 468px; min-height: 698px; padding: 3px 3px 3px 3px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
+	#imCell_1 { width: 468px; min-height: 1159px;  padding-top: 3px; padding-bottom: 3px; padding-left: 1px; padding-right: 1px; }
+	#imCellStyle_1 { width: 468px; min-height: 1159px; padding: 3px 3px 3px 3px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
 	#imCellStyleGraphics_1 { left: 1px; right: 1px; }
 	#imObjectGallery_1 { display: block; width: 462px; text-align: left; }
 	#imObjectGallery_1 a { display: block; float: left; margin: 0; width: 113px; height: 113px; }
