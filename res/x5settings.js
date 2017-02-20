@@ -5,6 +5,7 @@
 		b = x.boot;
 
 	s.siteId = 'DC8C0E6DC6864E00D8CC843CD37946BD';
+	s.islocal = true;
 	s.version = '12-0-9-30';
 	b.push(function () {
 		x.setupDateTime();
@@ -22,7 +23,7 @@
 			target: '#imMnMn',
 			showCurrent: false,
 			desktopVerticalScroll: false,
-			mobileVerticalScroll: false,
+			mobileVerticalScroll: true,
 			showLogoOnScroll: false,
 			orientation: 'horizontal',
 			menuHeight: 38,
@@ -99,7 +100,18 @@
 	// Captcha
 	b.push(function () {
 		x5engine.captcha.instance = new x5engine.captcha.x5captcha({
-			"phpfile": "captcha/x5captcha.php",
+			"offlineCodes": {
+				"0": { letter: '4', path: 'captcha/imcpa_vyp.gif'},
+				"1": { letter: 'M', path: 'captcha/imcpa_aaf.gif'},
+				"2": { letter: 'A', path: 'captcha/imcpa_du6.gif'},
+				"3": { letter: '8', path: 'captcha/imcpa_xuy.gif'},
+				"4": { letter: 'U', path: 'captcha/imcpa_fr8.gif'},
+				"5": { letter: 'C', path: 'captcha/imcpa_l4y.gif'},
+				"6": { letter: 'R', path: 'captcha/imcpa_dpx.gif'},
+				"7": { letter: 'V', path: 'captcha/imcpa_uww.gif'},
+				"8": { letter: 'U', path: 'captcha/imcpa_x5y.gif'},
+				"9": { letter: 'Y', path: 'captcha/imcpa_jct.gif'}
+			}
 		});
 	}, false, 'first');
 

@@ -1,22 +1,52 @@
 h2#imPgTitle {float: left; }
 #imBreadcrumb { float: left; }
+#imCell_1 { float: left; }
+#imCell_1 { display: block; position: relative; overflow: hidden; }
+#imCellStyle_1 { position: relative; box-sizing: border-box; text-align: center; z-index: 2;}
+#imCellStyleGraphics_1 { position: absolute; top: 3px; bottom: 3px; background-color: transparent; }
+#imContent #imObjectGallery_1 a:link, #imContent #imObjectGallery_1 a:hover, #imContent #imObjectGallery_1 a:visited, #imContent #imObjectGallery_1 a:active { border: none; background-color: transparent; text-decoration: none; }
 @media (min-width: 960px) {
 	#imPgTitle { width: 936px; margin-left: 6px; margin-right: 6px; }
 	#imBreadcrumb { width: 936px; margin-left: 6px; margin-right: 6px; }
+	#imCell_1 { width: 944px; min-height: 240px;  padding-top: 3px; padding-bottom: 3px; padding-left: 3px; padding-right: 3px; }
+	#imCellStyle_1 { width: 944px; min-height: 240px; padding: 3px 3px 3px 3px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
+	#imCellStyleGraphics_1 { left: 3px; right: 3px; }
+	#imObjectGallery_1 { display: block; width: 938px; text-align: left; }
+	#imObjectGallery_1 a { display: block; float: left; margin: 0; width: 232px; height: 232px; }
+	#imObjectGallery_1 img { float:left; margin: 0; width: 232px; height: 232px; }
 	
 }
 @media  (max-width: 959px) and (min-width: 720px) {
 	#imPgTitle { width: 696px; margin-left: 6px; margin-right: 6px; }
 	#imBreadcrumb { width: 696px; margin-left: 6px; margin-right: 6px; }
+	#imCell_1 { width: 706px; min-height: 181px;  padding-top: 3px; padding-bottom: 3px; padding-left: 2px; padding-right: 2px; }
+	#imCellStyle_1 { width: 706px; min-height: 181px; padding: 3px 3px 3px 3px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
+	#imCellStyleGraphics_1 { left: 2px; right: 2px; }
+	#imObjectGallery_1 { display: block; width: 700px; text-align: left; }
+	#imObjectGallery_1 a { display: block; float: left; margin: 0; width: 173px; height: 173px; }
+	#imObjectGallery_1 img { float:left; margin: 0; width: 173px; height: 173px; }
 	
 }
 @media  (max-width: 719px) and (min-width: 480px) {
 	#imPgTitle { width: 456px; margin-left: 6px; margin-right: 6px; }
 	#imBreadcrumb { width: 456px; margin-left: 6px; margin-right: 6px; }
+	#imCell_1 { width: 468px; min-height: 121px;  padding-top: 3px; padding-bottom: 3px; padding-left: 1px; padding-right: 1px; }
+	#imCellStyle_1 { width: 468px; min-height: 121px; padding: 3px 3px 3px 3px; border-top: 0; border-bottom: 0; border-left: 0; border-right: 0; }
+	#imCellStyleGraphics_1 { left: 1px; right: 1px; }
+	#imObjectGallery_1 { display: block; width: 462px; text-align: left; }
+	#imObjectGallery_1 a { display: block; float: left; margin: 0; width: 113px; height: 113px; }
+	#imObjectGallery_1 img { float:left; margin: 0; width: 113px; height: 113px; }
 	
 }
 @media  (max-width: 479px) {
 	#imPgTitle { width: 100%; margin-left: 0px; margin-right: 0px; }
 	#imBreadcrumb { width: 100%; margin-left: 0px; margin-right: 0px; }
+	#imCell_1 { clear: left; }
+	#imCell_1 { width: 100%; min-height: 12px;  padding-top: 3px; padding-bottom: 3px; padding-left: 5px; padding-right: 5px; box-sizing: border-box; }
+	#imCellStyle_1 { width: 100%; min-height: 0px; padding: 3px 3px 3px 3px; }
+	#imCellStyleGraphics_1 { top: 3px; bottom: 3px; left: 5px; right: 5px; }
+	#imObjectGallery_1 { display: block; width: 100%; }
+	#imObjectGallery_1 a { margin: 0; max-width: 232px; width: 100%; height: auto; }
+	#imObjectGallery_1 img { margin: 0; max-width: 232px; width: 100%; height: auto; }
 	
 }
